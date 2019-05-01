@@ -9,4 +9,11 @@ num = int(num)
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 
 # YOUR CODE HERE
+def Checkthis(x):
+    if x & 1:
+        print('Odd')
+    else:
+        print('Even!')
 
+
+Checkthis (num)
